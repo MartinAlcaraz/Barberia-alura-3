@@ -3,17 +3,18 @@
 
 <head>
    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
    <title>Contacto - Barbería Alura</title>
-
    <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
    <header>
       <div class="caja">
-         <h1><img src="imagenes/logo.png" alt="Logo Barbería Alura"></h1>
-
+         <h1><a href="index.html"><img src="imagenes/logo.png" 
+            class="logo-barberia" alt="Logo Barbería Alura"></a></h1>
          <nav>
             <ul>
                <li><a href="index.html">Home</a></li>
@@ -64,12 +65,36 @@
             <input type="checkbox" checked>Le gustaría recibir novedades de la Barbería Alura?
          </label>
 
-         <input type="submit" value="Enviar formulario">
+         <input type="submit" value="Enviar formulario" class="enviar">
       </form>
+
+      <table>
+         <thead>
+             <tr>
+                 <th>Día</th>
+                 <th>Horario</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>Lunes</td>
+                 <td>8h ~ 20h</td>
+             </tr>
+             <tr>
+                 <td>Miércoles</td>
+                 <td>8h ~ 20h</td>
+             </tr>
+             <tr>
+                 <td>Viernes</td>
+                 <td>8h ~ 20h</td>
+             </tr>
+         </tbody>
+     </table>
    </main>
 
    <footer>
-      <img src="imagenes/logo-blanco.png" alt="Logo Barbería Alura">
+      <a href="index.html"> <img src="imagenes/logo-blanco.png" 
+         class="logo-barberia" alt="Logo Barbería Alura"></a>
       <p class="copyright">&copy; Copyright Barbería Alura - 2020</p>
    </footer>
 </body>

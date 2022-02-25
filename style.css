@@ -51,6 +51,10 @@ nav a:hover{
    color: rgb(222, 145, 0);
 }
 
+.principal p{
+   font-size: 1em;
+}
+
 .productos {
    width: 940px;
    margin: 0 auto;
@@ -206,7 +210,9 @@ td, th {
 }
 
 .mapa {
-   margin: 1em auto 0;   
+   padding: 3em 0 3em;
+   margin: 1em auto 0;
+   background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p {
@@ -219,6 +225,12 @@ td, th {
    height: 400px;
    margin: 0 auto;
 }
+
+.mapa-contenido {
+   width: 940px;
+   margin: 0 auto;
+}
+
 
 .video{
    width: 600px;
@@ -274,15 +286,6 @@ td, th {
    width: 60%;
 }
 
-.mapa-contenido {
-   width: 940px;
-   margin: 0 auto;
-}
-.mapa {
-   padding: 3em 0;
-   background: linear-gradient(#FEFEFE, #888888);
-}
-
 
 @media screen and (max-width:800px){
    h1{
@@ -305,6 +308,10 @@ td, th {
        width: auto;
    }
   
+   .mapa {
+      padding-top: 1em;
+   }
+
    .mapa-contenido iframe{
       width: 98%;
       margin-left: auto;
@@ -333,6 +340,23 @@ td, th {
       margin: 0 0 40px;
    }
 
+   form {
+      width: 90%;
+      margin: 1em auto;
+   }
 
+   .input-patron{
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   .enviar{
+      width: 100%;
+   }
 
+   table{
+      margin-left: auto;
+      margin-right: auto;
+   }
 }

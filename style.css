@@ -104,7 +104,7 @@ nav a:hover{
 }
 
 form {
-   margin: 40px 30px;
+   margin: 2em 30px;
 }
 
 form label, form legend {
@@ -119,6 +119,15 @@ form label, form legend {
    padding: 10px 25px;
    width: 50%;
 }
+
+.select-turno{
+   border:2px solid black;
+   border-radius: 5px;
+   padding: 5px 30px;
+   background-color: #BBBBBB;
+}
+
+
 
 .checkbox {
    margin: 20px 0;
@@ -342,7 +351,7 @@ td, th {
 
    form {
       width: 90%;
-      margin: 1em auto;
+      margin: 3em auto;
    }
 
    .input-patron{

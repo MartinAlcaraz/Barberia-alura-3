@@ -1,0 +1,75 @@
+
+@media screen and (max-width:768px){
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+ 
+    nav {
+       position: static;
+    }
+ 
+    nav a{
+       font-size: 1.2em;
+    }
+ 
+    nav ul{
+       text-align: center;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+   
+    .mapa {
+       padding-top: 1em;
+    }
+ 
+    .mapa-contenido iframe{
+       width: 98%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+ 
+    .principal{
+       margin-left: 1em;
+       margin-right: 1em;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+        margin: 0 0 2em;
+    }
+ 
+    .diferenciales {
+       padding: 3em 1em;
+    }
+ 
+    .productos {
+       width: auto;
+    }
+ 
+    .productos li{
+       width: 100%;
+       margin: 0 0 40px;
+    }
+ 
+    form {
+       width: 90%;
+       margin: 3em auto;
+    }
+ 
+    .input-patron{
+       width: 85%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+    .enviar{
+       width: 100%;
+    }
+ 
+    table{
+       margin-left: auto;
+       margin-right: auto;
+    }
+ }
+ 
